@@ -1,0 +1,310 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+html {
+  background-image: url("../img/backround2.jpg");
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+}
+
+#totop {
+  width: auto;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#totop:hover {
+  background-color: #8B8378;
+}
+
+.bw {
+  background-color: rgba(48,48,48,0.5);
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.bw p {
+  padding: 10px;
+}
+.bw img,p,h1,h2 {
+  float: center;
+}
+
+.color {
+  background-color: rgba(48,48,48,0.5);
+  padding-bottom: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.color img {
+  padding-top: 20px;
+}
+
+.color img,p,h1,h2 {
+  float: center;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+  font-family: 'Jura', sans-serif;
+}
+
+h3 {
+  color: #fff;
+  padding: 20px;
+  font-family: 'Jura', sans-serif;
+}
+
+.contact {
+  background-color: rgba(48,48,48,0.5);
+  color: white;
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-top-style: dotted;
+  border-color: #fff;
+  border-width: 3px;
+  }
+
+.contact h5 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+input {
+  font-family: 'Jura', sans-serif;
+  display: block;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+textarea {
+  font-family: 'Jura', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  font-family: 'Dosis', sans-serif;
+  background-color: rgba(50, 65, 87, 0.8);
+  color: white;
+  border-style: none;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #8B8378; 
+}
+
+
+.contact p {
+  font-family: 'Jura', sans-serif;
+  font-size: 24px;
+}
+
+#contact {
+  margin-left: 30px;
+  float: center;
+}
+
+#oneway {
+  border-radius: 50%;
+  height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    float: right;
+    padding: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+}
+
+
+/*MOZILLA*/
+@-moz-document url-prefix() {
+
+html {
+  background-image: url("../img/background.jpg");
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+}
+
+#totop {
+  width: auto;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#totop:hover {
+  background-color: #8B8378;
+}
+
+.bw {
+  background-color: #d2c5ac;
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.bw p {
+  padding: 10px;
+}
+.bw img,p,h1,h2 {
+  float: center;
+}
+
+.color {
+  background-color: #3a2806;
+  padding-bottom: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.color img {
+  padding-top: 20px;
+}
+
+.color img,p,h1,h2 {
+  float: center;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  font-family: 'Jura', sans-serif;
+}
+
+h3 {
+  color: #fff;
+  padding: 20px;
+  font-family: 'Jura', sans-serif;
+}
+
+.contact {
+  background-color: #857c6c;
+  color: white;
+  padding-bottom: 15px;
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-top-style: dotted;
+  border-color: #fff;
+  border-width: 3px;
+}
+
+.contact h5 {
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+input {
+  font-family: 'Jura', sans-serif;
+  display: block;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+textarea {
+  font-family: 'Jura', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  font-family: 'Dosis', sans-serif;
+  background-color: #000;
+  color: white;
+  border-style: none;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+}
+
+.contact p {
+  font-family: 'Jura', sans-serif;
+  font-size: 24px;
+}
+
+#contact {
+  margin-left: 30px;
+  float: center;
+}
+
+#oneway {
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    float: right;
+    padding: 30px;
+}
+
+button {
+  background-color: rgba(48,48,48,0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

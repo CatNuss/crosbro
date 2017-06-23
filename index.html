@@ -1,0 +1,98 @@
+<!--Using the documentation and resources provided, create a simple webpage that is different in 2 browsers, (Chrome and Firefox). 
+The webpage will need to include a number of basic html elements, headings (h1, h2, etc), images, forms with inputs, buttons, links, and some basic text and paragraphs.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrosBro</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Jura|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+<!-- Top Button -->
+
+	<button onclick="topFunction()" id="totop" title="Go to top">Top</button>
+
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("totop").style.display = "block";
+	    } else {
+	        document.getElementById("totop").style.display = "none";
+	    }
+	}
+
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+<!-- END Top Button -->
+
+	<div class="bw">
+		
+		<h1>Black and White Photography</h1>
+
+		<h2>Jennifer</h2>
+			<img src="img/girl2.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
+
+				Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat <a href="condimentum velit">condimentum velit</a>. </p>
+
+		<h2>Alex</h2>
+			<img src="img/guy.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. <a href="Vestibulum lacinia">Vestibulum lacinia</a> arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
+
+				Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
+
+		<h2>Carlton Hair</h2>
+			<img src="img/hair.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
+
+				Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
+
+				<div id="mybtn"><button>Contact Us</button></div>
+	</div>
+
+<div class="clearfix"></div>
+
+	<div class="color">
+			
+			<h1>Nature Photography</h1>
+				<img src="img/landscape.jpg">	
+
+				<img src="img/trees.jpg">
+				
+				<img src="img/waterfall.jpg">
+
+	</div>
+
+<section class="contact">
+<a name="contact"></a>
+
+	<div id="contact">
+
+		<h5>Contact</h5>
+
+		<p>Need more information? Send us a Message here:</p>
+
+			<form method="POST" action="contact.php">
+				<input type="text" name="Full-Name" placeholder="Fill in your Full Name" required>
+				<input type="text" name="email" placeholder= "Fill in your e-mail" required>
+				<textarea name="Message" rows="10" cols="30">Write a Message</textarea>
+				<input type="submit" value="send" name="Submit">
+			</form>
+			
+	</div>
+
+	<div class="clearfix"></div>
+
+</section>
+
+
+</body>
+</html>
